@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gotham100";
+  font-weight: "100";
+  src: url("./public/fonts/Gotham-XLight.otf");
+}
+
+@font-face {
+  font-family: "Gotham200";
+  font-weight: "200";
+  src: url("./public/fonts/Gotham-Light.otf");
+}
+
+@font-face {
+  font-family: "Gotham300";
+  font-weight: "300";
+  src: url("./public/fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+  font-family: "Gotham";
+  font-weight: "400";
+  src: url("./public/fonts/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: "Gotham500";
+  font-weight: "500" {
+    src: url("./public/fonts/GothamMedium.ttf");
+  };
+}
+
+@font-face {
+  font-family: "Gotham600";
+  font-weight: "600";
+  src: url("./public/fonts/GothamMedium_1.ttf");
+}
+
+@font-face {
+  font-family: "Gotham700";
+  font-weight: "700";
+  src: url("./public/fonts/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "Gotham800";
+  font-weight: "800";
+  src: url("./public/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "Gotham900";
+  font-weight: "900";
+  src: url("./public/fonts/Gotham-Black.otf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  font-size: 14px !important;
+}
+
+@media(min-width: 768px){
+  input {
+    font-size: 16px !important;
+  }
+}
