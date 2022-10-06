@@ -27,8 +27,8 @@ function StoreCard() {
                     </div>
                 </div>
             </div>
-            <div className='flex w-full font-gotham700 text-center text-5 text-navicon leading-[19px] pb-[10px] justify-center'>ABID CLEVER DRIPPER 102</div>
-            <div className='flex w-full font-gotham500 text-center text-4 text-navicon leading-[15px] pb-[10px] justify-center'>Toko</div>
+            <div className='flex w-full font-gotham700 text-center text-[18px] lg:text-[20px] text-navicon leading-[19px] pb-[10px] justify-center'>ABID CLEVER DRIPPER 102</div>
+            <div className='flex w-full font-gotham500 text-center text-[16px] lg:text-[16px] text-navicon leading-[15px] pb-[10px] justify-center'>UBRUKOPI</div>
             <div className='flex w-full gap-x-[2px] justify-center h-[10px] items-center pb-[10.5px]'>
                 <div className='flex w-[10px]'>
                     <img src={star} alt='rating'/>

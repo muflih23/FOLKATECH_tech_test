@@ -10,7 +10,7 @@ function Layout({children}) {
 
   return (
     <div className='flex w-screen min-h-screen flex-col items-center'>
-        <div className='flex w-full flex-row-reverse py-7 px-4 gap-x-4 text-navicon md:px-[53px]'>
+        <div className='flex w-screen flex-row-reverse py-7 px-4 gap-x-4 text-navicon md:px-[53px]'>
             <button className='flex flex-row gap-x-[4px] items-center'>
                 <MdOutlinePerson className='text-[32px]'/>
                 <img src={dropdown} alt='profile'/>
@@ -29,7 +29,7 @@ function Layout({children}) {
                 BELANJA
             </div>
         </div>
-        <div className='flex w-full flex-col px-4 lg:px-8 xl:px-[70px] overflow-x-hidden'>
+        <div className='flex w-full flex-col px-4 lg:px-8 xl:px-[70px] items-center'>
             {children}
         </div>
     </div>
