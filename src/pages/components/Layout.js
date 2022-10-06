@@ -29,7 +29,7 @@ function Layout({children}) {
                 BELANJA
             </div>
         </div>
-        <div className='flex w-full flex-col px-4 lg:px-8 xl:px-[70px]'>
+        <div className='flex w-full flex-col px-4 lg:px-8 xl:px-[70px] overflow-x-hidden'>
             {children}
         </div>
     </div>

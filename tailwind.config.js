@@ -19,6 +19,7 @@ module.exports = {
       'authBottomText' : '#7c7c7c',
       'navicon' : '#696969',
       'sliderbg' : '#757575',
+      'itemsHover' : '#f4f4f4'
     },
     fontFamily: {
       gotham100 : ["Gotham100", "sans-serif"],
@@ -40,6 +41,7 @@ module.exports = {
         'authform' : '0px 1px 4px rgba(0, 0, 0, 0.25)',
         'authbutton' : '0px 7px 6px rgba(0, 0, 0, 0.17)',
         'searchbox' : '0px 4px 4px rgba(0, 0, 0, 0.1)',
+        'storeCard' : '0px 4px 4px rgba(0, 0, 0, 0.13)',
       }
     },
   },
